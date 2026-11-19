@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#g)"/>
+  <!-- khiên -->
+  <path d="M512 170 L790 270 V500 C790 680 668 800 512 860 C356 800 234 680 234 500 V270 Z" fill="#f8fafc"/>
+  <path d="M512 228 L740 310 V500 C740 650 640 752 512 802 C384 752 284 650 284 500 V310 Z" fill="#0f766e"/>
+  <!-- nhà -->
+  <path d="M512 380 L652 492 V650 H372 V492 Z" fill="#fde68a"/>
+  <path d="M512 352 L684 492" stroke="#fde68a" stroke-width="40" stroke-linecap="round"/>
+  <path d="M512 352 L340 492" stroke="#fde68a" stroke-width="40" stroke-linecap="round"/>
+  <rect x="478" y="560" width="68" height="90" rx="10" fill="#0f766e"/>
+</svg>

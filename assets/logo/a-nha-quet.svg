@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#g)"/>
+  <!-- khung quét 4 góc -->
+  <g fill="none" stroke="#93c5fd" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 330 V230 a40 40 0 0 1 40 -40 H330"/>
+    <path d="M694 190 H794 a40 40 0 0 1 40 40 V330"/>
+    <path d="M190 694 V794 a40 40 0 0 0 40 40 H330"/>
+    <path d="M834 694 V794 a40 40 0 0 1 -40 40 H694"/>
+  </g>
+  <!-- ngôi nhà -->
+  <path d="M512 282 L742 470 V732 a24 24 0 0 1 -24 24 H306 a24 24 0 0 1 -24 -24 V470 Z" fill="#ffffff"/>
+  <path d="M512 250 L790 478" stroke="#ffffff" stroke-width="52" stroke-linecap="round"/>
+  <path d="M512 250 L234 478" stroke="#ffffff" stroke-width="52" stroke-linecap="round"/>
+  <!-- người (lưu trú) -->
+  <circle cx="512" cy="548" r="58" fill="#1d4ed8"/>
+  <path d="M410 712 a102 92 0 0 1 204 0 Z" fill="#1d4ed8"/>
+</svg>

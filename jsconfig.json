@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-native",
+    "checkJs": false,
+    "skipLibCheck": true
+  },
+  "include": ["index.js", "src/**/*.js", "scripts/**/*.mjs", "__tests__/**/*.js"],
+  "exclude": ["node_modules", "android", "ios"]
+}
